@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/golt-react-hw-03-phonebook/static/css/main.59daa8f6.css",
+    "main.js": "/golt-react-hw-03-phonebook/static/js/main.d9616521.js",
+    "index.html": "/golt-react-hw-03-phonebook/index.html",
+    "main.59daa8f6.css.map": "/golt-react-hw-03-phonebook/static/css/main.59daa8f6.css.map",
+    "main.d9616521.js.map": "/golt-react-hw-03-phonebook/static/js/main.d9616521.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59daa8f6.css",
+    "static/js/main.d9616521.js"
+  ]
+}
