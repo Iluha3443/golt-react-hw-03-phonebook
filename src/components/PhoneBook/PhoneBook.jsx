@@ -10,7 +10,20 @@ class PhoneBook extends React.Component {
   contacts: [],
   filter: '',
 }
-     
+   componentDidMount() {
+    const contacts = localStorage.getItem('contacts');
+    const parseContacts = JSON.parse(contacts);
+    if (parseContacts) {
+      this.setState({contacts: parseContacts})
+    }
+  }
+  
+  componentDidUpdate(prevProps, prevState) {
+    if (this.state.contacts !== prevState) {
+      localStorage.setItem('contacts', JSON.stringify(this.state.contacts))
+    }
+    
+  }
 
     
     handleSubmit = (evt) => {
